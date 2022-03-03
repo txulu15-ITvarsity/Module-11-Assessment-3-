@@ -1,11 +1,11 @@
-html {
+html{
     font-size: 14px;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+@media (min-width: 768px){
+    html {
+        font-size: 16px;
+    }
 }
 
 .blog-header{
@@ -13,23 +13,20 @@ html {
     max-width: 700px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .blog-header{
         margin-top: 8rem;
     }
 }
-
 .container{
     max-width: 960px;
 }
-
 .team{
-    overflow-x: scroll;
+    overflow-y: scroll;
     overflow-y: hidden;
     white-space: nowrap;
     margin-bottom: 2rem;
 }
-
 
 .card-deck .card{
     min-width: 220px;
@@ -38,35 +35,10 @@ html {
 .card-text{
     padding-top: 1rem;
 }
-
-.card-block{
+.card-blok{
     min-height: 220px;
 }
 
 .active{
     border-bottom: 1px solid black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
